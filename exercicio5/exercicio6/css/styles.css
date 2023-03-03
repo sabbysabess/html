@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: darkslateblue;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    border-bottom: black 4px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color: darkslateblue;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-top: black 4px solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: rgb(182, 157, 241);
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.product-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 33%;
+    display: inline-block;
+}
+
+.product-image{
+    height: 400px;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+    background-image: url(../imagem/game1.png);
+}
+
+#img-2{
+    background-image: url(../imagem/game2.png);
+}
+
+#img-3{
+    background-image: url(../imagem/game3.png);
+}
+
+#img-4{
+    background-image: url(../imagem/game4.png);
+}
+
+#img-5{
+    background-image: url(../imagem/game5.png);
+}
+
+#img-6{
+    background-image: url(../imagem/game6.jpg);
+}
+
+h3{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 24px;
+}
+.card p{
+    margin-bottom: 10px;
+}
+.btn{
+    display: block;
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(34, 14, 52);
+    color: aliceblue;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(91, 50, 129);
+}
