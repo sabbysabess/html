@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+/*Estilo do body*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.anotacao {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho {
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagens/vagalumes.png);
+    background-size: cover;
+    color: aliceblue;
+}
+
+.barra_nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.barra_nav a {
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.barra_nav a:hover {
+    background-color: rgb(214, 215, 216);
+    color: black;
+}
+
+.coluna {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/*Criar 2 colunas desiguais (30 e 70%*/ 
+.lateral {
+    flex: 30%;
+    background-color: #6e6b6b;
+    padding: 20px;
+}
+
+.principal {
+    flex: 70%;
+    background-color: rgb(71, 75, 78);
+    padding: 20px;
+}
+
+/*Imagem falsa apenas para marcação do espaço*/
+
+.imagem_falsa {
+    background-color: rgb(99, 185, 157);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+
+.imagem_falsa2 {
+    background-color: rgb(86, 190, 155);
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.imagem_falsa3 {
+    background-color: rgb(133, 66, 51);
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+.rodape {
+    max-height: fit-content;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .coluna, .barra_nav {
+        flex-direction: column;
+    }
+    .cabecalho {
+        background-image: url(../imagens/naori.png);
+        background-size: cover;
+        color: rgb(0, 0, 0);
+    }
+}
