@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utF-8"/>
+<title> Contatos </title>
+<meta name="description" content="Bem vindos ao site com html5, 
+css3 e jquery e design responsivo"/>
+
+<meta name="viewport" content="width-device-width, initial-scale=1"/>
+<link rel="shortcut icon" type="image/x-icon" href="icone_site.png" />
+
+<link rel="author" type="text/plain" href="humans.txt" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
+<link rel="stylesheet" href="css/estilo.css" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	
+	
+	
+</head>
+<body>
+
+<header>
+<h1> <a href="index.html"> <img class="fade" alt="Hugo Vasconcelos Cursos"
+src="img/disney_pixar_logo.png" /> </a> </h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="cursos.html">Músicas</a></li>
+<li><a href="servicos.html">Melhores Categorias</a></li>
+<li><a href="trabalhos.html">Filmes</a></li>
+<li><a href="contatos.html">Contatos</a></li>
+</nav>
+</header>
+
+<section id="conteudo">
+	<section id="contato">
+		<h2>Contatos</h2>
+		<article id="info-contato">
+			<p>
+					Telefone:
+					<span class="dados-contato">T (510) 922-3000
+F (510) 922-3151</span>
+					<br />
+					Web:
+					<span class="dados-contato">www.pixar.com</span>
+					<br />
+					Endereço:
+					<span class="dados-contato">PIXAR ANIMATION STUDIOS
+1200 PARK AVE
+EMERYVILLE, CA 94608</span>
+					<br />
+					
+					  
+					<br>
+					
+		</article>
+		<article id="contatenos">
+			<form action="enviar.php" method="POST">
+				<fieldset>
+					<legend>Envie-nos seu comentário</legend>
+						<div>
+							<label for="nome">Nome:</label>
+							<input type="text" id="nome" class="fade" name="nome_txt" required />
+						</div>
+						<div>
+							<label for="email">Email:</label>
+							<input type="email" id="email" class="fade" name="email_txt" required />
+						</div>
+						<div>
+							<label for="assunto">Assunto:</label>
+							<input type="text" id="assunto" class="fade" name="assunto_txt" required />
+						</div>
+						<div>
+							<label for="comentarios">Comentário:</label>
+							<textarea  id="comentarios" class="fade" name="comentarios_txt" cols="30" rows="5" required >
+							</textarea>
+						</div>
+						<div>
+							<input type="submit" id="enviar" class="fade" name="enviar_btn" value="Enviar" />
+						</div>
+							
+				</fieldset>
+			</form>
+		</article>
+	</section>
+	<section id="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1232.6151482051082!2d-122.28464143330167!3d37.832826322363076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f812591f83ebb%3A0x54a4a831d64cf2e5!2sPixar%20Animation%20Studios!5e0!3m2!1spt-BR!2sbr!4v1684513337742!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+</section>
+
+<footer>
+Sabby's corporation studios &copy
+</footer>
+
+</body>
+</html>
